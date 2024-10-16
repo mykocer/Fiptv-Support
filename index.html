@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support Page</title>
+  <title>App Usage Guide</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,7 +14,8 @@
     .container {
       width: 80%;
       margin: auto;
-      overflow: hidden;
+      padding: 20px;
+      background: #fff;
     }
     header {
       background: #333;
@@ -22,74 +23,49 @@
       padding-top: 10px;
       min-height: 70px;
       border-bottom: #0779e4 3px solid;
+      text-align: center;
     }
     header h1 {
-      text-align: center;
       text-transform: uppercase;
       margin: 0;
       font-size: 24px;
     }
-    .main {
-      padding: 20px;
-      background: #fff;
+    section {
       margin-top: 20px;
     }
-    .faq {
-      margin-top: 20px;
-    }
-    .faq h3 {
+    section h2 {
       color: #333;
-    }
-    footer {
-      padding: 20px;
-      background: #333;
-      color: #fff;
-      text-align: center;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>App Support</h1>
+    <h1>App Usage Guide</h1>
   </header>
-  <div class="container main">
+  <div class="container">
     <section>
-      <h2>Contact Us</h2>
-      <p>If you need assistance with our app, feel free to reach out:</p>
+      <h2>Getting Started</h2>
+      <p>Download the app from the App Store or Google Play, and open it on your device.</p>
+    </section>
+
+    <section>
+      <h2>Account Setup</h2>
+      <p>To get started, create an account by entering your email and choosing a password. You will receive a verification email to complete the setup.</p>
+    </section>
+
+    <section>
+      <h2>Main Features</h2>
       <ul>
-        <li><strong>Email:</strong> support@example.com</li>
-        <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+        <li><strong>Feature 1:</strong> Description of the feature.</li>
+        <li><strong>Feature 2:</strong> Description of the feature.</li>
+        <li><strong>Feature 3:</strong> Description of the feature.</li>
       </ul>
     </section>
 
-    <section class="faq">
-      <h2>Frequently Asked Questions (FAQ)</h2>
-      <h3>1. How do I reset my password?</h3>
-      <p>To reset your password, open the app, go to the settings, and select "Reset Password". Follow the instructions provided.</p>
-      
-      <h3>2. How can I contact support?</h3>
-      <p>You can reach us by email at support@example.com or use the form on this page.</p>
-      
-      <h3>3. How do I update my app?</h3>
-      <p>Visit the App Store or Google Play Store, and check for updates. Make sure you have the latest version installed for the best experience.</p>
-    </section>
-
     <section>
-      <h2>Submit a Support Request</h2>
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="issue">Issue:</label><br>
-        <textarea id="issue" name="issue" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <h2>Troubleshooting</h2>
+      <p>If you encounter any issues, make sure your app is up-to-date. For further assistance, you can visit our FAQ page or contact support via the app's support section.</p>
     </section>
   </div>
-
-  <footer>
-    <p>© 2024 Your App Name. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
